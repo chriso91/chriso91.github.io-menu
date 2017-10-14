@@ -1,0 +1,134 @@
+html, body{
+	background-image: url('whiteback.png');
+}
+
+#name{
+	font-family: 'Lobster', cursive;
+	margin: 0 auto;
+	font-size: 80px;
+	text-align: center;
+}
+
+#menu{
+	width: 45vw;
+	margin: 0 auto;
+	text-align: center;
+	font-family: 'Lobster';
+	font-size: 25px;
+}
+
+#bar{
+	width: 40vw;
+	border-color: black;
+	border-style: solid;
+}
+
+.buttons{
+	color: black;
+}
+
+.buttons:hover{
+	text-decoration: none;
+	color: white;
+	padding: 5px;
+}
+
+#resume{
+	background-position: 0 0;
+  	background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 50%, red 50%); 
+  	transition: background-position 0.5s ease-out 0s;
+  	background-size: 200.22% auto;
+}
+
+#resume:hover{
+	background-position: -99.99% 0;
+  	background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 50%, red 50%);
+}
+
+#projects{
+	background-position: 0 0;
+  	background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 50%, yellow 50%);
+  	transition: background-position 0.5s ease-out 0s;
+  	background-size: 200.22% auto;
+}
+
+#projects:hover{
+	background-position: -99.99% 0;
+  	background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 50%, yellow 50%);
+}
+
+#misc{
+	background-position: 0 0;
+  	background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 50%, purple 50%);
+  	transition: background-position 0.5s ease-out 0s;
+  	background-size: 200.22% auto;
+}
+
+#misc:hover{
+	background-position: -99.99% 0;
+  	background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 50%, purple 50%);
+}
+
+#imgdiv{
+	width: 40vw;
+	margin: 0 auto;
+}
+
+img{
+	width:40vw;
+}
+
+#about{
+	width: 55vw;
+	margin: 0 auto;
+	column-count: 2;
+}
+
+#abouttag{
+	font-family: 'Lobster';
+	width: 55vw;
+	margin: 0 auto;
+}
+
+#bar2{
+	width: 55vw;
+	border-color: black;
+	border-style: solid;
+}
+
+#insta{
+	font-size: 40px;
+	color: black;
+	text-align: center;
+}
+
+#insta:hover{
+	color: red;
+
+}
+
+#git{
+	font-size: 40px;
+	color: black;
+	text-align: center;
+}
+
+#git:hover{
+	color: green;
+}
+
+#email{
+	font-size: 40px;
+	color: black;
+	text-align: center;
+}
+
+#email:hover{
+	color: blue;
+}
+
+#icons{
+	width: 30vw;
+	margin: 0 auto;
+	text-align: center;
+}
