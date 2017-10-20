@@ -61,7 +61,7 @@ html, body{
 	background-position: 0 0;
   	background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 50%, purple 50%);
   	transition: background-position 0.5s ease-out 0s;
-  	background-size: 200.22% auto;
+  	background-size: 202% auto;
 }
 
 #misc:hover{
