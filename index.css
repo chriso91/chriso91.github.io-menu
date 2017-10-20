@@ -70,13 +70,14 @@ html, body{
 }
 
 #imgdiv{
-	width: 40vw;
 	margin: 0 auto;
+	width: 40vw;
 }
 
-img{
-	width:40vw;
+
+#myimage{
 	border-radius: 50%;
+	width: 40vw;
 }
 
 #about{
