@@ -37,7 +37,7 @@ html, body{
 	background-position: 0 0;
   	background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 50%, red 50%); 
   	transition: background-position 0.5s ease-out 0s;
-  	background-size: 200.22% auto;
+  	background-size: 203% auto;
 }
 
 #resume:hover{
@@ -61,7 +61,7 @@ html, body{
 	background-position: 0 0;
   	background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 50%, purple 50%);
   	transition: background-position 0.5s ease-out 0s;
-  	background-size: 202% auto;
+  	background-size: 203% auto;
 }
 
 #misc:hover{
@@ -76,6 +76,7 @@ html, body{
 
 img{
 	width:40vw;
+	border-radius: 50%;
 }
 
 #about{
