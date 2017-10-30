@@ -71,7 +71,7 @@ html, body{
 	font-family: 'Lobster';
 	font-size: 25px;
 	position: absolute;
-	left: 25vw;
+	left: 24vw;
 }
 
 .divs{
@@ -111,7 +111,7 @@ html, body{
 
 #calcdiv{
 	top: 610px;
-	left: 25vw;
+	left: 24vw;
 }
 
 #weatherdiv{
@@ -121,7 +121,7 @@ html, body{
 
 #pomodorodiv{
 	top: 915px;
-	left: 25vw;
+	left: 24vw;
 }
 
 #wikidiv{
@@ -131,7 +131,7 @@ html, body{
 
 #quotediv{
 	top: 1220px;
-	left: 25vw;
+	left: 24vw;
 }
 
 #ticdiv{
