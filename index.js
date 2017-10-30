@@ -10,61 +10,61 @@ $(document).ready(function(){
 
 	$('#calcdiv').hover(function(){
 		$('#calctext').show();
-		$('#calc').width('270px');
+		$('#calc').width('21vw');
 		$('#calc').fadeTo(300, 0.1);
 	},function(){
 		$('#calctext').hide();
-		$('#calc').width('250px');
+		$('#calc').width('20vw');
 		$('#calc').fadeTo(300, 1);
 	});
 
 	$('#weatherdiv').hover(function(){
 		$('#weathertext').show();
-		$('#weather').width('270px');
+		$('#weather').width('21vw');
 		$("#weather").fadeTo(300, 0.1);
 	},function(){
 		$('#weathertext').hide();
-		$('#weather').width('250px');
+		$('#weather').width('20vw');
 		$("#weather").fadeTo(300, 1);
 	});
 
 	$('#pomodorodiv').hover(function(){
 		$('#pomodorotext').show();
-		$('#pomodoro').width('270px');
+		$('#pomodoro').width('21vw');
 		$("#pomodoro").fadeTo(300, 0.1);
 	},function(){
 		$('#pomodorotext').hide();
-		$('#pomodoro').width('250px');
+		$('#pomodoro').width('20vw');
 		$("#pomodoro").fadeTo(300, 1);
 	});
 
 	$('#wikidiv').hover(function(){
 		$('#wikitext').show();
-		$('#wiki').width('270px');
+		$('#wiki').width('21vw');
 		$("#wiki").fadeTo(300, 0.1);
 	},function(){
 		$('#wikitext').hide();
-		$('#wiki').width('250px');
+		$('#wiki').width('20vw');
 		$("#wiki").fadeTo(300, 1);
 	});
 
 	$('#quotediv').hover(function(){
 		$('#quotetext').show();
-		$('#quote').width('270px');
+		$('#quote').width('21vw');
 		$("#quote").fadeTo(300, 0.1);
 	},function(){
 		$('#quotetext').hide();
-		$('#quote').width('250px');
+		$('#quote').width('20vw');
 		$("#quote").fadeTo(300, 1);
 	});
 
 	$('#ticdiv').hover(function(){
 		$('#tictext').show();
-		$('#tic').width('270px');
+		$('#tic').width('21vw');
 		$("#tic").fadeTo(300, 0.1);
 	},function(){
 		$('#tictext').hide();
-		$('#tic').width('250px');
+		$('#tic').width('20vw');
 		$("#tic").fadeTo(300, 1);
 	});
 })

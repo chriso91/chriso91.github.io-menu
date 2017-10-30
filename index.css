@@ -71,7 +71,7 @@ html, body{
 	font-family: 'Lobster';
 	font-size: 25px;
 	position: absolute;
-	left: 24vw;
+	left: 25vw;
 }
 
 .divs{
@@ -84,7 +84,7 @@ html, body{
 }
 
 .photo{
-	width: 250px;	
+	width: 20vw;	
 	border-radius: 10px;
 	border-color: black;
 	border-width: 5px;
@@ -111,32 +111,32 @@ html, body{
 
 #calcdiv{
 	top: 610px;
-	left: 22vw;
+	left: 25vw;
 }
 
 #weatherdiv{
 	top: 610px;
-	left: 55vw;
+	right: 25vw;
 }
 
 #pomodorodiv{
-	top: 915px;
-	left: 22vw;
+	top: 935px;
+	left: 25vw;
 }
 
 #wikidiv{
-	top: 915px;
-	left: 55vw;
+	top: 935px;
+	right: 25vw;
 }
 
 #quotediv{
-	top: 1220px;
-	left: 22vw;
+	top: 1240px;
+	left: 25vw;
 }
 
 #ticdiv{
-	top: 1220px;
-	left: 55vw;
+	top: 1240px;
+	right: 25vw;
 }
 
 /*Picture *****************************************************************************/
@@ -166,7 +166,6 @@ html, body{
 /* Bottom Menu with email github and instagram icons*****************************************/
 #bottom{
 	position: absolute;
-	margin: 0 auto;
 	top: 1550px;
 	left: 10vw;
 	width: 80vw;
