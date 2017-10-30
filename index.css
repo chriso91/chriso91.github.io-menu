@@ -2,32 +2,28 @@ html, body{
 	background-image: url('whiteback.png');
 }
 
+/* Header of page "Christine Elizabeth O'Dea" *********************************************/
 #name{
 	font-family: 'Lobster', cursive;
 	margin: 0 auto;
-	font-size: 5vw;
+	font-size: 60px;
 	text-align: center;
 }
 
+/*Menu on top of page, resume, about me, other skills **************************************/
 #menu{
 	width: 45vw;
 	margin: 0 auto;
 	text-align: center;
-	font-family: 'Lobster';
-	font-size: 2.5vw;
 }
 
-#bar{
-	width: 40vw;
-	border-color: black;
-	border-style: solid;
-}
-
-.buttons{
+.menubuttons{
 	color: black;
+	font-family: 'Lobster';
+	font-size: 25px;
 }
 
-.buttons:hover{
+.menubuttons:hover{
 	text-decoration: none;
 	color: white;
 	padding: 5px;
@@ -37,67 +33,149 @@ html, body{
 	background-position: 0 0;
   	background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 50%, red 50%); 
   	transition: background-position 0.5s ease-out 0s;
-  	background-size: 204% auto;
+  	background-size: 202% auto;
 }
 
 #resume:hover{
-	background-position: -99.99% 0;
+	background-position: -98% 0;
   	background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 50%, red 50%);
 }
 
-#projects{
+#aboutme{
 	background-position: 0 0;
   	background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 50%, yellow 50%);
   	transition: background-position 0.5s ease-out 0s;
-  	background-size: 200.22% auto;
+  	background-size: 202% auto;
 }
 
-#projects:hover{
-	background-position: -99.99% 0;
+#aboutme:hover{
+	background-position: -98% 0;
   	background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 50%, yellow 50%);
 }
 
-#misc{
+#other{
 	background-position: 0 0;
   	background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 50%, purple 50%);
   	transition: background-position 0.5s ease-out 0s;
   	background-size: 203% auto;
 }
 
-#misc:hover{
-	background-position: -99.99% 0;
+#other:hover{
+	background-position: -98% 0;
   	background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 50%, purple 50%);
 }
 
-#imgdiv{
-	margin: 0 auto;
-	width: 40vw;
-}
+/*Project buttons ********************************************************************/
 
-
-#myimage{
-	border-radius: 50%;
-	width: 40vw;
-}
-
-#about{
-	width: 55vw;
-	font-size: 1.5vw;
-	margin: 0 auto;
-	column-count: 2;
-}
-
-#abouttag{
+#projectstitle{
 	font-family: 'Lobster';
-	font-size: 2.5vw;
-	width: 55vw;
+	font-size: 25px;
+	position: absolute;
+	left: 350px;
+}
+
+.divs{
+	position: absolute;
+	text-align: center;
+}
+
+.divs:hover{
+	color: black;
+}
+
+.photo{
+	width: 250px;	
+	border-radius: 10px;
+	border-color: black;
+	border-width: 5px;
+	border-style: double;
+	margin: 20px 0 20px 0;
+}
+
+.titles{
+	font-family: 'Lobster';
+	font-size: 20px;
+	color: black;
+}
+
+.desc{
+	width: 200px;
+	font-size: 15px;
+	position: absolute;
+	top: 50px;
+	left:35px;
+	font-weight: bold;
+	color: black;
+	cursor: pointer;
+}
+
+#calcdiv{
+	top: 610px;
+	left: 350px;
+}
+
+#weatherdiv{
+	top: 610px;
+	left: 750px;
+}
+
+#pomodorodiv{
+	top: 915px;
+	left: 350px;
+}
+
+#wikidiv{
+	top: 915px;
+	left: 750px;
+}
+
+#quotediv{
+	top: 1220px;
+	left: 350px;
+}
+
+#ticdiv{
+	top: 1220px;
+	left: 750px;
+}
+
+/*Picture *****************************************************************************/
+#mepic{
+	width: 300px;
+	border-radius: 50%;
+}
+
+#picdiv{
+	width: 300px;
 	margin: 0 auto;
+}
+
+/*Top and bottom bars numerically titled by their position on the page top to bottom **/
+#bar1{
+	width: 40vw;
+	border-color: black;
+	border-style: solid;
 }
 
 #bar2{
 	width: 55vw;
 	border-color: black;
 	border-style: solid;
+}
+
+/* Bottom Menu with email github and instagram icons*****************************************/
+#bottom{
+	position: absolute;
+	margin: 0 auto;
+	top: 1550px;
+	left: 10vw;
+	width: 80vw;
+}
+
+#icons{
+	width: 30vw;
+	margin: 0 auto;
+	text-align: center;
 }
 
 #insta{
@@ -108,7 +186,6 @@ html, body{
 
 #insta:hover{
 	color: red;
-
 }
 
 #git{
@@ -131,8 +208,3 @@ html, body{
 	color: blue;
 }
 
-#icons{
-	width: 30vw;
-	margin: 0 auto;
-	text-align: center;
-}
